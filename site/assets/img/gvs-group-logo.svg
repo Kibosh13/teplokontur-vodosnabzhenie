@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 200" role="img" aria-labelledby="title desc">
+  <title id="title">GVS-Group</title>
+  <desc id="desc">Логотип инженерной компании: водяной контур, капля и тёплый поток</desc>
+  <g fill="none" stroke="#355f8a" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M139 43A74 74 0 1 0 141 158" stroke-width="18"/>
+    <path d="M139 43h18v27M141 158h16v-27" stroke-width="15"/>
+  </g>
+  <path d="M85 38s-35 49-35 76a35 35 0 0 0 70 0c0-27-35-76-35-76Z" fill="#355f8a"/>
+  <path d="M20 121c24-24 45-19 64-6 24 17 43 21 72-10" fill="none" stroke="#f4f1ea" stroke-linecap="round" stroke-width="23"/>
+  <path d="M20 121c24-24 45-19 64-6 24 17 43 21 72-10" fill="none" stroke="#b88754" stroke-linecap="round" stroke-width="12"/>
+  <text x="188" y="142" fill="#355f8a" font-family="Arial, Helvetica, sans-serif" font-size="116" font-weight="800" letter-spacing="-7">GVS</text>
+  <rect x="420" y="110" width="34" height="11" rx="5.5" fill="#b88754"/>
+  <text x="468" y="142" fill="#111416" font-family="Arial, Helvetica, sans-serif" font-size="91" font-weight="800" letter-spacing="-4">Group</text>
+</svg>
