@@ -1,0 +1,5325 @@
+{
+    "pages": {
+        "home": {
+            "id": "home",
+            "name": "Главная",
+            "url": "/"
+        },
+        "services": {
+            "id": "services",
+            "name": "Услуги",
+            "url": "/services/"
+        },
+        "packages": {
+            "id": "packages",
+            "name": "Варианты монтажа",
+            "url": "/packages/"
+        },
+        "prices": {
+            "id": "prices",
+            "name": "Цены",
+            "url": "/prices/"
+        },
+        "works": {
+            "id": "works",
+            "name": "Примеры работ",
+            "url": "/works/"
+        },
+        "contacts": {
+            "id": "contacts",
+            "name": "Контакты",
+            "url": "/contacts/"
+        }
+    },
+    "fields": {
+        "global.company": {
+            "id": "global.company",
+            "label": "Название компании",
+            "type": "text",
+            "page": "global",
+            "section": "Компания и контакты",
+            "hint": ""
+        },
+        "global.subtitle": {
+            "id": "global.subtitle",
+            "label": "Подпись под логотипом",
+            "type": "text",
+            "page": "global",
+            "section": "Компания и контакты",
+            "hint": ""
+        },
+        "global.phone": {
+            "id": "global.phone",
+            "label": "Телефон",
+            "type": "phone",
+            "page": "global",
+            "section": "Компания и контакты",
+            "hint": ""
+        },
+        "global.email": {
+            "id": "global.email",
+            "label": "Электронная почта",
+            "type": "email",
+            "page": "global",
+            "section": "Компания и контакты",
+            "hint": ""
+        },
+        "global.hours": {
+            "id": "global.hours",
+            "label": "График работы",
+            "type": "text",
+            "page": "global",
+            "section": "Компания и контакты",
+            "hint": ""
+        },
+        "global.region": {
+            "id": "global.region",
+            "label": "Регион выезда",
+            "type": "text",
+            "page": "global",
+            "section": "Компания и контакты",
+            "hint": ""
+        },
+        "global.copyright_year": {
+            "id": "global.copyright_year",
+            "label": "Год в подписи ©",
+            "type": "text",
+            "page": "global",
+            "section": "Компания и контакты",
+            "hint": ""
+        },
+        "global.logo_light": {
+            "id": "global.logo_light",
+            "label": "Логотип на светлом фоне",
+            "type": "image",
+            "page": "global",
+            "section": "Компания и контакты",
+            "hint": ""
+        },
+        "global.logo_dark": {
+            "id": "global.logo_dark",
+            "label": "Логотип на тёмном фоне",
+            "type": "image",
+            "page": "global",
+            "section": "Компания и контакты",
+            "hint": ""
+        },
+        "home.seo.title": {
+            "id": "home.seo.title",
+            "label": "Заголовок в поиске (title)",
+            "type": "text",
+            "page": "home",
+            "section": "SEO",
+            "hint": ""
+        },
+        "home.seo.description": {
+            "id": "home.seo.description",
+            "label": "Описание в поиске (description)",
+            "type": "textarea",
+            "page": "home",
+            "section": "SEO",
+            "hint": ""
+        },
+        "home.seo.index": {
+            "id": "home.seo.index",
+            "label": "Разрешить индексацию страницы",
+            "type": "toggle",
+            "page": "home",
+            "section": "SEO",
+            "hint": ""
+        },
+        "home.seo.canonical": {
+            "id": "home.seo.canonical",
+            "label": "Канонический адрес",
+            "type": "url",
+            "page": "home",
+            "section": "SEO",
+            "hint": ""
+        },
+        "home.seo.image": {
+            "id": "home.seo.image",
+            "label": "Фото для социальных сетей",
+            "type": "image",
+            "page": "home",
+            "section": "SEO",
+            "hint": ""
+        },
+        "home.t3": {
+            "id": "home.t3",
+            "label": "Подпись для доступности",
+            "type": "text",
+            "page": "home",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "home.t4": {
+            "id": "home.t4",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "home",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "home.t5": {
+            "id": "home.t5",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "home",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "home.t6": {
+            "id": "home.t6",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "home",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "home.t7": {
+            "id": "home.t7",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "home",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "home.t8": {
+            "id": "home.t8",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "home",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "home.t9": {
+            "id": "home.t9",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "home",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "home.t10": {
+            "id": "home.t10",
+            "label": "Подпись для доступности",
+            "type": "text",
+            "page": "home",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "home.image11": {
+            "id": "home.image11",
+            "label": "Сложный инженерный узел системы отопления",
+            "type": "image",
+            "page": "home",
+            "section": "Инженерные системы, с которыми спокойно.",
+            "hint": "",
+            "altId": "home.image11.alt"
+        },
+        "home.image11.alt": {
+            "id": "home.image11.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "home",
+            "section": "Инженерные системы, с которыми спокойно.",
+            "hint": ""
+        },
+        "home.t12": {
+            "id": "home.t12",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Инженерные системы, с которыми спокойно.",
+            "hint": ""
+        },
+        "home.t13": {
+            "id": "home.t13",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "home",
+            "section": "Инженерные системы, с которыми спокойно.",
+            "hint": ""
+        },
+        "home.t14": {
+            "id": "home.t14",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Инженерные системы, с которыми спокойно.",
+            "hint": ""
+        },
+        "home.t15": {
+            "id": "home.t15",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "home",
+            "section": "Инженерные системы, с которыми спокойно.",
+            "hint": ""
+        },
+        "home.t16": {
+            "id": "home.t16",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "home",
+            "section": "Инженерные системы, с которыми спокойно.",
+            "hint": ""
+        },
+        "home.t17": {
+            "id": "home.t17",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "home",
+            "section": "Инженерные системы, с которыми спокойно.",
+            "hint": ""
+        },
+        "home.t18": {
+            "id": "home.t18",
+            "label": "Подпись для доступности",
+            "type": "text",
+            "page": "home",
+            "section": "Инженерные системы, с которыми спокойно.",
+            "hint": ""
+        },
+        "home.t19": {
+            "id": "home.t19",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Инженерные системы, с которыми спокойно.",
+            "hint": ""
+        },
+        "home.t20": {
+            "id": "home.t20",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Инженерные системы, с которыми спокойно.",
+            "hint": ""
+        },
+        "home.t21": {
+            "id": "home.t21",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Инженерные системы, с которыми спокойно.",
+            "hint": ""
+        },
+        "home.t22": {
+            "id": "home.t22",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Инженерные системы, с которыми спокойно.",
+            "hint": ""
+        },
+        "home.t23": {
+            "id": "home.t23",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Инженерные системы, с которыми спокойно.",
+            "hint": ""
+        },
+        "home.t24": {
+            "id": "home.t24",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Инженерные системы, с которыми спокойно.",
+            "hint": ""
+        },
+        "home.t25": {
+            "id": "home.t25",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Инженерные системы, с которыми спокойно.",
+            "hint": ""
+        },
+        "home.t26": {
+            "id": "home.t26",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Инженерные системы, с которыми спокойно.",
+            "hint": ""
+        },
+        "home.t27": {
+            "id": "home.t27",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Инженерные системы, с которыми спокойно.",
+            "hint": ""
+        },
+        "home.t28": {
+            "id": "home.t28",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Не просто «провести трубы». Собрать систему, которую удобно понимать и обслуживать.",
+            "hint": ""
+        },
+        "home.t29": {
+            "id": "home.t29",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "home",
+            "section": "Не просто «провести трубы». Собрать систему, которую удобно понимать и обслуживать.",
+            "hint": ""
+        },
+        "home.t30": {
+            "id": "home.t30",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Не просто «провести трубы». Собрать систему, которую удобно понимать и обслуживать.",
+            "hint": ""
+        },
+        "home.t31": {
+            "id": "home.t31",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "home",
+            "section": "Не просто «провести трубы». Собрать систему, которую удобно понимать и обслуживать.",
+            "hint": ""
+        },
+        "home.t32": {
+            "id": "home.t32",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "home",
+            "section": "Не просто «провести трубы». Собрать систему, которую удобно понимать и обслуживать.",
+            "hint": ""
+        },
+        "home.t33": {
+            "id": "home.t33",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "От проекта до стабильной работы",
+            "hint": ""
+        },
+        "home.t34": {
+            "id": "home.t34",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "home",
+            "section": "От проекта до стабильной работы",
+            "hint": ""
+        },
+        "home.t35": {
+            "id": "home.t35",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "home",
+            "section": "От проекта до стабильной работы",
+            "hint": ""
+        },
+        "home.t36": {
+            "id": "home.t36",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "home",
+            "section": "От проекта до стабильной работы",
+            "hint": ""
+        },
+        "home.t37": {
+            "id": "home.t37",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "От проекта до стабильной работы",
+            "hint": ""
+        },
+        "home.t38": {
+            "id": "home.t38",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "home",
+            "section": "От проекта до стабильной работы",
+            "hint": ""
+        },
+        "home.t39": {
+            "id": "home.t39",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "home",
+            "section": "От проекта до стабильной работы",
+            "hint": ""
+        },
+        "home.t40": {
+            "id": "home.t40",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "От проекта до стабильной работы",
+            "hint": ""
+        },
+        "home.t41": {
+            "id": "home.t41",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "home",
+            "section": "От проекта до стабильной работы",
+            "hint": ""
+        },
+        "home.t42": {
+            "id": "home.t42",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "home",
+            "section": "От проекта до стабильной работы",
+            "hint": ""
+        },
+        "home.t43": {
+            "id": "home.t43",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "От проекта до стабильной работы",
+            "hint": ""
+        },
+        "home.t44": {
+            "id": "home.t44",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "home",
+            "section": "От проекта до стабильной работы",
+            "hint": ""
+        },
+        "home.t45": {
+            "id": "home.t45",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "home",
+            "section": "От проекта до стабильной работы",
+            "hint": ""
+        },
+        "home.t46": {
+            "id": "home.t46",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "От проекта до стабильной работы",
+            "hint": ""
+        },
+        "home.t47": {
+            "id": "home.t47",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "home",
+            "section": "От проекта до стабильной работы",
+            "hint": ""
+        },
+        "home.image48": {
+            "id": "home.image48",
+            "label": "Пример инженерного паспорта системы отопления и водоснабжения",
+            "type": "image",
+            "page": "home",
+            "section": "Инженерный паспорт остаётся у вас",
+            "hint": "",
+            "altId": "home.image48.alt"
+        },
+        "home.image48.alt": {
+            "id": "home.image48.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "home",
+            "section": "Инженерный паспорт остаётся у вас",
+            "hint": ""
+        },
+        "home.t49": {
+            "id": "home.t49",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Инженерный паспорт остаётся у вас",
+            "hint": ""
+        },
+        "home.t50": {
+            "id": "home.t50",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "home",
+            "section": "Инженерный паспорт остаётся у вас",
+            "hint": ""
+        },
+        "home.t51": {
+            "id": "home.t51",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "home",
+            "section": "Инженерный паспорт остаётся у вас",
+            "hint": ""
+        },
+        "home.t52": {
+            "id": "home.t52",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Инженерный паспорт остаётся у вас",
+            "hint": ""
+        },
+        "home.t53": {
+            "id": "home.t53",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Инженерный паспорт остаётся у вас",
+            "hint": ""
+        },
+        "home.t54": {
+            "id": "home.t54",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Инженерный паспорт остаётся у вас",
+            "hint": ""
+        },
+        "home.t55": {
+            "id": "home.t55",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "home",
+            "section": "Инженерный паспорт остаётся у вас",
+            "hint": ""
+        },
+        "home.t56": {
+            "id": "home.t56",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Работа видна в деталях",
+            "hint": ""
+        },
+        "home.t57": {
+            "id": "home.t57",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "home",
+            "section": "Работа видна в деталях",
+            "hint": ""
+        },
+        "home.t58": {
+            "id": "home.t58",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Работа видна в деталях",
+            "hint": ""
+        },
+        "home.image59": {
+            "id": "home.image59",
+            "label": "Готовая котельная в частном доме",
+            "type": "image",
+            "page": "home",
+            "section": "Работа видна в деталях",
+            "hint": "",
+            "altId": "home.image59.alt"
+        },
+        "home.image59.alt": {
+            "id": "home.image59.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "home",
+            "section": "Работа видна в деталях",
+            "hint": ""
+        },
+        "home.t60": {
+            "id": "home.t60",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Работа видна в деталях",
+            "hint": ""
+        },
+        "home.t61": {
+            "id": "home.t61",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "home",
+            "section": "Работа видна в деталях",
+            "hint": ""
+        },
+        "home.image62": {
+            "id": "home.image62",
+            "label": "Контуры водяного тёплого пола",
+            "type": "image",
+            "page": "home",
+            "section": "Работа видна в деталях",
+            "hint": "",
+            "altId": "home.image62.alt"
+        },
+        "home.image62.alt": {
+            "id": "home.image62.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "home",
+            "section": "Работа видна в деталях",
+            "hint": ""
+        },
+        "home.t63": {
+            "id": "home.t63",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Работа видна в деталях",
+            "hint": ""
+        },
+        "home.t64": {
+            "id": "home.t64",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "home",
+            "section": "Работа видна в деталях",
+            "hint": ""
+        },
+        "home.image65": {
+            "id": "home.image65",
+            "label": "Коллекторный узел с автоматикой",
+            "type": "image",
+            "page": "home",
+            "section": "Работа видна в деталях",
+            "hint": "",
+            "altId": "home.image65.alt"
+        },
+        "home.image65.alt": {
+            "id": "home.image65.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "home",
+            "section": "Работа видна в деталях",
+            "hint": ""
+        },
+        "home.t66": {
+            "id": "home.t66",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Работа видна в деталях",
+            "hint": ""
+        },
+        "home.t67": {
+            "id": "home.t67",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "home",
+            "section": "Работа видна в деталях",
+            "hint": ""
+        },
+        "home.t68": {
+            "id": "home.t68",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Спокойно на каждом этапе",
+            "hint": ""
+        },
+        "home.t69": {
+            "id": "home.t69",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "home",
+            "section": "Спокойно на каждом этапе",
+            "hint": ""
+        },
+        "home.t70": {
+            "id": "home.t70",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "home",
+            "section": "Спокойно на каждом этапе",
+            "hint": ""
+        },
+        "home.t71": {
+            "id": "home.t71",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "home",
+            "section": "Спокойно на каждом этапе",
+            "hint": ""
+        },
+        "home.t72": {
+            "id": "home.t72",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Спокойно на каждом этапе",
+            "hint": ""
+        },
+        "home.t73": {
+            "id": "home.t73",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "home",
+            "section": "Спокойно на каждом этапе",
+            "hint": ""
+        },
+        "home.t74": {
+            "id": "home.t74",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Спокойно на каждом этапе",
+            "hint": ""
+        },
+        "home.t75": {
+            "id": "home.t75",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "home",
+            "section": "Спокойно на каждом этапе",
+            "hint": ""
+        },
+        "home.t76": {
+            "id": "home.t76",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Спокойно на каждом этапе",
+            "hint": ""
+        },
+        "home.t77": {
+            "id": "home.t77",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "home",
+            "section": "Спокойно на каждом этапе",
+            "hint": ""
+        },
+        "home.t78": {
+            "id": "home.t78",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Спокойно на каждом этапе",
+            "hint": ""
+        },
+        "home.t79": {
+            "id": "home.t79",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "home",
+            "section": "Рыночная цена — без скрытых коэффициентов",
+            "hint": ""
+        },
+        "home.t80": {
+            "id": "home.t80",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "home",
+            "section": "Рыночная цена — без скрытых коэффициентов",
+            "hint": ""
+        },
+        "home.t81": {
+            "id": "home.t81",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "home",
+            "section": "Рыночная цена — без скрытых коэффициентов",
+            "hint": ""
+        },
+        "home.t82": {
+            "id": "home.t82",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "home.t83": {
+            "id": "home.t83",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "home",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "home.t84": {
+            "id": "home.t84",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "home",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "home.t85": {
+            "id": "home.t85",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "home",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "home.t86": {
+            "id": "home.t86",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "home.t87": {
+            "id": "home.t87",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "home",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "home.t88": {
+            "id": "home.t88",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "home",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "home.t89": {
+            "id": "home.t89",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "home",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "home.t90": {
+            "id": "home.t90",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "home",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "home.t91": {
+            "id": "home.t91",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "home",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "home.t92": {
+            "id": "home.t92",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "home.t93": {
+            "id": "home.t93",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "home.t94": {
+            "id": "home.t94",
+            "label": "Подпись для доступности",
+            "type": "text",
+            "page": "home",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "home.t95": {
+            "id": "home.t95",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "home.t96": {
+            "id": "home.t96",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "home",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "home.t97": {
+            "id": "home.t97",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "home.t98": {
+            "id": "home.t98",
+            "label": "Название поля",
+            "type": "text",
+            "page": "home",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "home.t99": {
+            "id": "home.t99",
+            "label": "Название поля",
+            "type": "text",
+            "page": "home",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "home.t100": {
+            "id": "home.t100",
+            "label": "Подсказка в поле",
+            "type": "text",
+            "page": "home",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "home.t101": {
+            "id": "home.t101",
+            "label": "Название поля",
+            "type": "text",
+            "page": "home",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "home.t102": {
+            "id": "home.t102",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "home.t103": {
+            "id": "home.t103",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "home.t104": {
+            "id": "home.t104",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "home.t105": {
+            "id": "home.t105",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "home.t106": {
+            "id": "home.t106",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "home.t107": {
+            "id": "home.t107",
+            "label": "Название поля",
+            "type": "text",
+            "page": "home",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "home.t108": {
+            "id": "home.t108",
+            "label": "Подсказка в поле",
+            "type": "text",
+            "page": "home",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "home.t109": {
+            "id": "home.t109",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "home",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "home.t110": {
+            "id": "home.t110",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "home.t111": {
+            "id": "home.t111",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "home.t112": {
+            "id": "home.t112",
+            "label": "Текст",
+            "type": "text",
+            "page": "home",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "home.t113": {
+            "id": "home.t113",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "home",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "services.seo.title": {
+            "id": "services.seo.title",
+            "label": "Заголовок в поиске (title)",
+            "type": "text",
+            "page": "services",
+            "section": "SEO",
+            "hint": ""
+        },
+        "services.seo.description": {
+            "id": "services.seo.description",
+            "label": "Описание в поиске (description)",
+            "type": "textarea",
+            "page": "services",
+            "section": "SEO",
+            "hint": ""
+        },
+        "services.seo.index": {
+            "id": "services.seo.index",
+            "label": "Разрешить индексацию страницы",
+            "type": "toggle",
+            "page": "services",
+            "section": "SEO",
+            "hint": ""
+        },
+        "services.seo.canonical": {
+            "id": "services.seo.canonical",
+            "label": "Канонический адрес",
+            "type": "url",
+            "page": "services",
+            "section": "SEO",
+            "hint": ""
+        },
+        "services.seo.image": {
+            "id": "services.seo.image",
+            "label": "Фото для социальных сетей",
+            "type": "image",
+            "page": "services",
+            "section": "SEO",
+            "hint": ""
+        },
+        "services.t3": {
+            "id": "services.t3",
+            "label": "Подпись для доступности",
+            "type": "text",
+            "page": "services",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "services.t4": {
+            "id": "services.t4",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "services",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "services.t5": {
+            "id": "services.t5",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "services",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "services.t6": {
+            "id": "services.t6",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "services",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "services.t7": {
+            "id": "services.t7",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "services",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "services.t8": {
+            "id": "services.t8",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "services",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "services.t9": {
+            "id": "services.t9",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "services",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "services.t10": {
+            "id": "services.t10",
+            "label": "Подпись для доступности",
+            "type": "text",
+            "page": "services",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "services.image11": {
+            "id": "services.image11",
+            "label": "Аккуратный монтаж инженерных систем из меди и нержавеющей стали",
+            "type": "image",
+            "page": "services",
+            "section": "Всё, чтобы тепло и вода работали как надо",
+            "hint": "",
+            "altId": "services.image11.alt"
+        },
+        "services.image11.alt": {
+            "id": "services.image11.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "services",
+            "section": "Всё, чтобы тепло и вода работали как надо",
+            "hint": ""
+        },
+        "services.t12": {
+            "id": "services.t12",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "services",
+            "section": "Всё, чтобы тепло и вода работали как надо",
+            "hint": ""
+        },
+        "services.t13": {
+            "id": "services.t13",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Всё, чтобы тепло и вода работали как надо",
+            "hint": ""
+        },
+        "services.t14": {
+            "id": "services.t14",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Всё, чтобы тепло и вода работали как надо",
+            "hint": ""
+        },
+        "services.t15": {
+            "id": "services.t15",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "services",
+            "section": "Всё, чтобы тепло и вода работали как надо",
+            "hint": ""
+        },
+        "services.t16": {
+            "id": "services.t16",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "services",
+            "section": "Всё, чтобы тепло и вода работали как надо",
+            "hint": ""
+        },
+        "services.t17": {
+            "id": "services.t17",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "services",
+            "section": "Системы отопления",
+            "hint": ""
+        },
+        "services.t18": {
+            "id": "services.t18",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "services",
+            "section": "Системы отопления",
+            "hint": ""
+        },
+        "services.t19": {
+            "id": "services.t19",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Системы отопления",
+            "hint": ""
+        },
+        "services.t20": {
+            "id": "services.t20",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Системы отопления",
+            "hint": ""
+        },
+        "services.t21": {
+            "id": "services.t21",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Системы отопления",
+            "hint": ""
+        },
+        "services.t22": {
+            "id": "services.t22",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Системы отопления",
+            "hint": ""
+        },
+        "services.t23": {
+            "id": "services.t23",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Системы отопления",
+            "hint": ""
+        },
+        "services.image24": {
+            "id": "services.image24",
+            "label": "Современная котельная с коллекторами, насосами и автоматикой",
+            "type": "image",
+            "page": "services",
+            "section": "Системы отопления",
+            "hint": "",
+            "altId": "services.image24.alt"
+        },
+        "services.image24.alt": {
+            "id": "services.image24.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "services",
+            "section": "Системы отопления",
+            "hint": ""
+        },
+        "services.t25": {
+            "id": "services.t25",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "services",
+            "section": "Водоснабжение",
+            "hint": ""
+        },
+        "services.t26": {
+            "id": "services.t26",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "services",
+            "section": "Водоснабжение",
+            "hint": ""
+        },
+        "services.t27": {
+            "id": "services.t27",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Водоснабжение",
+            "hint": ""
+        },
+        "services.t28": {
+            "id": "services.t28",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Водоснабжение",
+            "hint": ""
+        },
+        "services.t29": {
+            "id": "services.t29",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Водоснабжение",
+            "hint": ""
+        },
+        "services.t30": {
+            "id": "services.t30",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Водоснабжение",
+            "hint": ""
+        },
+        "services.image31": {
+            "id": "services.image31",
+            "label": "Аккуратный коллекторный узел системы водоснабжения",
+            "type": "image",
+            "page": "services",
+            "section": "Водоснабжение",
+            "hint": "",
+            "altId": "services.image31.alt"
+        },
+        "services.image31.alt": {
+            "id": "services.image31.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "services",
+            "section": "Водоснабжение",
+            "hint": ""
+        },
+        "services.t32": {
+            "id": "services.t32",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "services",
+            "section": "Управление и защита",
+            "hint": ""
+        },
+        "services.t33": {
+            "id": "services.t33",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "services",
+            "section": "Управление и защита",
+            "hint": ""
+        },
+        "services.t34": {
+            "id": "services.t34",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Управление и защита",
+            "hint": ""
+        },
+        "services.t35": {
+            "id": "services.t35",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Управление и защита",
+            "hint": ""
+        },
+        "services.t36": {
+            "id": "services.t36",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Управление и защита",
+            "hint": ""
+        },
+        "services.t37": {
+            "id": "services.t37",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Управление и защита",
+            "hint": ""
+        },
+        "services.image38": {
+            "id": "services.image38",
+            "label": "Управление отоплением со смартфона и комнатного термостата",
+            "type": "image",
+            "page": "services",
+            "section": "Управление и защита",
+            "hint": "",
+            "altId": "services.image38.alt"
+        },
+        "services.image38.alt": {
+            "id": "services.image38.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "services",
+            "section": "Управление и защита",
+            "hint": ""
+        },
+        "services.t39": {
+            "id": "services.t39",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "services",
+            "section": "Обслуживание и ремонт",
+            "hint": ""
+        },
+        "services.t40": {
+            "id": "services.t40",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "services",
+            "section": "Обслуживание и ремонт",
+            "hint": ""
+        },
+        "services.t41": {
+            "id": "services.t41",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Обслуживание и ремонт",
+            "hint": ""
+        },
+        "services.t42": {
+            "id": "services.t42",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Обслуживание и ремонт",
+            "hint": ""
+        },
+        "services.t43": {
+            "id": "services.t43",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Обслуживание и ремонт",
+            "hint": ""
+        },
+        "services.t44": {
+            "id": "services.t44",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Обслуживание и ремонт",
+            "hint": ""
+        },
+        "services.image45": {
+            "id": "services.image45",
+            "label": "Инженер выполняет диагностику и настройку системы отопления",
+            "type": "image",
+            "page": "services",
+            "section": "Обслуживание и ремонт",
+            "hint": "",
+            "altId": "services.image45.alt"
+        },
+        "services.image45.alt": {
+            "id": "services.image45.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "services",
+            "section": "Обслуживание и ремонт",
+            "hint": ""
+        },
+        "services.t46": {
+            "id": "services.t46",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Пять понятных этапов",
+            "hint": ""
+        },
+        "services.t47": {
+            "id": "services.t47",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "services",
+            "section": "Пять понятных этапов",
+            "hint": ""
+        },
+        "services.t48": {
+            "id": "services.t48",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Пять понятных этапов",
+            "hint": ""
+        },
+        "services.t49": {
+            "id": "services.t49",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "services",
+            "section": "Пять понятных этапов",
+            "hint": ""
+        },
+        "services.t50": {
+            "id": "services.t50",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Пять понятных этапов",
+            "hint": ""
+        },
+        "services.t51": {
+            "id": "services.t51",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "services",
+            "section": "Пять понятных этапов",
+            "hint": ""
+        },
+        "services.t52": {
+            "id": "services.t52",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Пять понятных этапов",
+            "hint": ""
+        },
+        "services.t53": {
+            "id": "services.t53",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "services",
+            "section": "Пять понятных этапов",
+            "hint": ""
+        },
+        "services.t54": {
+            "id": "services.t54",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Пять понятных этапов",
+            "hint": ""
+        },
+        "services.t55": {
+            "id": "services.t55",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "services",
+            "section": "Пять понятных этапов",
+            "hint": ""
+        },
+        "services.t56": {
+            "id": "services.t56",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Пять понятных этапов",
+            "hint": ""
+        },
+        "services.t57": {
+            "id": "services.t57",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "services",
+            "section": "Пять понятных этапов",
+            "hint": ""
+        },
+        "services.t58": {
+            "id": "services.t58",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Пять понятных этапов",
+            "hint": ""
+        },
+        "services.t59": {
+            "id": "services.t59",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Вся система — в одной понятной карточке",
+            "hint": ""
+        },
+        "services.t60": {
+            "id": "services.t60",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "services",
+            "section": "Вся система — в одной понятной карточке",
+            "hint": ""
+        },
+        "services.t61": {
+            "id": "services.t61",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "services",
+            "section": "Вся система — в одной понятной карточке",
+            "hint": ""
+        },
+        "services.image62": {
+            "id": "services.image62",
+            "label": "Проверка геометрии монтажа лазерным уровнем",
+            "type": "image",
+            "page": "services",
+            "section": "Вся система — в одной понятной карточке",
+            "hint": "",
+            "altId": "services.image62.alt"
+        },
+        "services.image62.alt": {
+            "id": "services.image62.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "services",
+            "section": "Вся система — в одной понятной карточке",
+            "hint": ""
+        },
+        "services.t63": {
+            "id": "services.t63",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Вся система — в одной понятной карточке",
+            "hint": ""
+        },
+        "services.image64": {
+            "id": "services.image64",
+            "label": "Инженер настраивает систему отопления",
+            "type": "image",
+            "page": "services",
+            "section": "Вся система — в одной понятной карточке",
+            "hint": "",
+            "altId": "services.image64.alt"
+        },
+        "services.image64.alt": {
+            "id": "services.image64.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "services",
+            "section": "Вся система — в одной понятной карточке",
+            "hint": ""
+        },
+        "services.t65": {
+            "id": "services.t65",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Вся система — в одной понятной карточке",
+            "hint": ""
+        },
+        "services.t66": {
+            "id": "services.t66",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "services",
+            "section": "Есть задача? Начнём с предварительной оценки",
+            "hint": ""
+        },
+        "services.t67": {
+            "id": "services.t67",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "services",
+            "section": "Есть задача? Начнём с предварительной оценки",
+            "hint": ""
+        },
+        "services.t68": {
+            "id": "services.t68",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "services",
+            "section": "Есть задача? Начнём с предварительной оценки",
+            "hint": ""
+        },
+        "services.t69": {
+            "id": "services.t69",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "services",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "services.t70": {
+            "id": "services.t70",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "services.t71": {
+            "id": "services.t71",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "services",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "services.t72": {
+            "id": "services.t72",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "services.t73": {
+            "id": "services.t73",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "services",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "services.t74": {
+            "id": "services.t74",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "services",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "services.t75": {
+            "id": "services.t75",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "services",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "services.t76": {
+            "id": "services.t76",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "services",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "services.t77": {
+            "id": "services.t77",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "services",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "services.t78": {
+            "id": "services.t78",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "services.t79": {
+            "id": "services.t79",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "services.t80": {
+            "id": "services.t80",
+            "label": "Подпись для доступности",
+            "type": "text",
+            "page": "services",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "services.t81": {
+            "id": "services.t81",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "services.t82": {
+            "id": "services.t82",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "services",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "services.t83": {
+            "id": "services.t83",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "services.t84": {
+            "id": "services.t84",
+            "label": "Название поля",
+            "type": "text",
+            "page": "services",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "services.t85": {
+            "id": "services.t85",
+            "label": "Название поля",
+            "type": "text",
+            "page": "services",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "services.t86": {
+            "id": "services.t86",
+            "label": "Подсказка в поле",
+            "type": "text",
+            "page": "services",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "services.t87": {
+            "id": "services.t87",
+            "label": "Название поля",
+            "type": "text",
+            "page": "services",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "services.t88": {
+            "id": "services.t88",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "services.t89": {
+            "id": "services.t89",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "services.t90": {
+            "id": "services.t90",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "services.t91": {
+            "id": "services.t91",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "services.t92": {
+            "id": "services.t92",
+            "label": "Название поля",
+            "type": "text",
+            "page": "services",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "services.t93": {
+            "id": "services.t93",
+            "label": "Подсказка в поле",
+            "type": "text",
+            "page": "services",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "services.t94": {
+            "id": "services.t94",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "services",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "services.t95": {
+            "id": "services.t95",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "services.t96": {
+            "id": "services.t96",
+            "label": "Текст",
+            "type": "text",
+            "page": "services",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "services.t97": {
+            "id": "services.t97",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "services",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "packages.seo.title": {
+            "id": "packages.seo.title",
+            "label": "Заголовок в поиске (title)",
+            "type": "text",
+            "page": "packages",
+            "section": "SEO",
+            "hint": ""
+        },
+        "packages.seo.description": {
+            "id": "packages.seo.description",
+            "label": "Описание в поиске (description)",
+            "type": "textarea",
+            "page": "packages",
+            "section": "SEO",
+            "hint": ""
+        },
+        "packages.seo.index": {
+            "id": "packages.seo.index",
+            "label": "Разрешить индексацию страницы",
+            "type": "toggle",
+            "page": "packages",
+            "section": "SEO",
+            "hint": ""
+        },
+        "packages.seo.canonical": {
+            "id": "packages.seo.canonical",
+            "label": "Канонический адрес",
+            "type": "url",
+            "page": "packages",
+            "section": "SEO",
+            "hint": ""
+        },
+        "packages.seo.image": {
+            "id": "packages.seo.image",
+            "label": "Фото для социальных сетей",
+            "type": "image",
+            "page": "packages",
+            "section": "SEO",
+            "hint": ""
+        },
+        "packages.t3": {
+            "id": "packages.t3",
+            "label": "Подпись для доступности",
+            "type": "text",
+            "page": "packages",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "packages.t4": {
+            "id": "packages.t4",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "packages",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "packages.t5": {
+            "id": "packages.t5",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "packages",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "packages.t6": {
+            "id": "packages.t6",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "packages",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "packages.t7": {
+            "id": "packages.t7",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "packages",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "packages.t8": {
+            "id": "packages.t8",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "packages",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "packages.t9": {
+            "id": "packages.t9",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "packages",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "packages.t10": {
+            "id": "packages.t10",
+            "label": "Подпись для доступности",
+            "type": "text",
+            "page": "packages",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "packages.image11": {
+            "id": "packages.image11",
+            "label": "Котельная с разводкой из нержавеющей стали",
+            "type": "image",
+            "page": "packages",
+            "section": "Три уровня монтажа. Понятно, за что вы платите",
+            "hint": "",
+            "altId": "packages.image11.alt"
+        },
+        "packages.image11.alt": {
+            "id": "packages.image11.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "packages",
+            "section": "Три уровня монтажа. Понятно, за что вы платите",
+            "hint": ""
+        },
+        "packages.t12": {
+            "id": "packages.t12",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "packages",
+            "section": "Три уровня монтажа. Понятно, за что вы платите",
+            "hint": ""
+        },
+        "packages.t13": {
+            "id": "packages.t13",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Три уровня монтажа. Понятно, за что вы платите",
+            "hint": ""
+        },
+        "packages.t14": {
+            "id": "packages.t14",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Три уровня монтажа. Понятно, за что вы платите",
+            "hint": ""
+        },
+        "packages.t15": {
+            "id": "packages.t15",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "packages",
+            "section": "Три уровня монтажа. Понятно, за что вы платите",
+            "hint": ""
+        },
+        "packages.t16": {
+            "id": "packages.t16",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "packages",
+            "section": "Три уровня монтажа. Понятно, за что вы платите",
+            "hint": ""
+        },
+        "packages.t17": {
+            "id": "packages.t17",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Не три жёстких тарифа, а три понятных сценария",
+            "hint": ""
+        },
+        "packages.t18": {
+            "id": "packages.t18",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "packages",
+            "section": "Не три жёстких тарифа, а три понятных сценария",
+            "hint": ""
+        },
+        "packages.t19": {
+            "id": "packages.t19",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "packages",
+            "section": "Не три жёстких тарифа, а три понятных сценария",
+            "hint": ""
+        },
+        "packages.image20": {
+            "id": "packages.image20",
+            "label": "Компактная котельная в комплектации Эконом",
+            "type": "image",
+            "page": "packages",
+            "section": "Не три жёстких тарифа, а три понятных сценария",
+            "hint": "",
+            "altId": "packages.image20.alt"
+        },
+        "packages.image20.alt": {
+            "id": "packages.image20.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "packages",
+            "section": "Не три жёстких тарифа, а три понятных сценария",
+            "hint": ""
+        },
+        "packages.t21": {
+            "id": "packages.t21",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Не три жёстких тарифа, а три понятных сценария",
+            "hint": ""
+        },
+        "packages.t22": {
+            "id": "packages.t22",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Не три жёстких тарифа, а три понятных сценария",
+            "hint": ""
+        },
+        "packages.t23": {
+            "id": "packages.t23",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Не три жёстких тарифа, а три понятных сценария",
+            "hint": ""
+        },
+        "packages.t24": {
+            "id": "packages.t24",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Не три жёстких тарифа, а три понятных сценария",
+            "hint": ""
+        },
+        "packages.image25": {
+            "id": "packages.image25",
+            "label": "Котельная с коллекторами в комплектации Стандарт",
+            "type": "image",
+            "page": "packages",
+            "section": "Не три жёстких тарифа, а три понятных сценария",
+            "hint": "",
+            "altId": "packages.image25.alt"
+        },
+        "packages.image25.alt": {
+            "id": "packages.image25.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "packages",
+            "section": "Не три жёстких тарифа, а три понятных сценария",
+            "hint": ""
+        },
+        "packages.t26": {
+            "id": "packages.t26",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Не три жёстких тарифа, а три понятных сценария",
+            "hint": ""
+        },
+        "packages.t27": {
+            "id": "packages.t27",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Не три жёстких тарифа, а три понятных сценария",
+            "hint": ""
+        },
+        "packages.t28": {
+            "id": "packages.t28",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Не три жёстких тарифа, а три понятных сценария",
+            "hint": ""
+        },
+        "packages.t29": {
+            "id": "packages.t29",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Не три жёстких тарифа, а три понятных сценария",
+            "hint": ""
+        },
+        "packages.image30": {
+            "id": "packages.image30",
+            "label": "Премиальная котельная с двумя котлами, автоматикой и обвязкой из нержавеющей стали",
+            "type": "image",
+            "page": "packages",
+            "section": "Не три жёстких тарифа, а три понятных сценария",
+            "hint": "",
+            "altId": "packages.image30.alt"
+        },
+        "packages.image30.alt": {
+            "id": "packages.image30.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "packages",
+            "section": "Не три жёстких тарифа, а три понятных сценария",
+            "hint": ""
+        },
+        "packages.t31": {
+            "id": "packages.t31",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Не три жёстких тарифа, а три понятных сценария",
+            "hint": ""
+        },
+        "packages.t32": {
+            "id": "packages.t32",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Не три жёстких тарифа, а три понятных сценария",
+            "hint": ""
+        },
+        "packages.t33": {
+            "id": "packages.t33",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Не три жёстких тарифа, а три понятных сценария",
+            "hint": ""
+        },
+        "packages.t34": {
+            "id": "packages.t34",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Не три жёстких тарифа, а три понятных сценария",
+            "hint": ""
+        },
+        "packages.t35": {
+            "id": "packages.t35",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Надёжное базовое отопление без лишних опций",
+            "hint": ""
+        },
+        "packages.t36": {
+            "id": "packages.t36",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "packages",
+            "section": "Надёжное базовое отопление без лишних опций",
+            "hint": ""
+        },
+        "packages.t37": {
+            "id": "packages.t37",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "packages",
+            "section": "Надёжное базовое отопление без лишних опций",
+            "hint": ""
+        },
+        "packages.t38": {
+            "id": "packages.t38",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Надёжное базовое отопление без лишних опций",
+            "hint": ""
+        },
+        "packages.t39": {
+            "id": "packages.t39",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Надёжное базовое отопление без лишних опций",
+            "hint": ""
+        },
+        "packages.t40": {
+            "id": "packages.t40",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Надёжное базовое отопление без лишних опций",
+            "hint": ""
+        },
+        "packages.t41": {
+            "id": "packages.t41",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Надёжное базовое отопление без лишних опций",
+            "hint": ""
+        },
+        "packages.t42": {
+            "id": "packages.t42",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "packages",
+            "section": "Надёжное базовое отопление без лишних опций",
+            "hint": ""
+        },
+        "packages.image43": {
+            "id": "packages.image43",
+            "label": "Пример котельной уровня Эконом",
+            "type": "image",
+            "page": "packages",
+            "section": "Надёжное базовое отопление без лишних опций",
+            "hint": "",
+            "altId": "packages.image43.alt"
+        },
+        "packages.image43.alt": {
+            "id": "packages.image43.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "packages",
+            "section": "Надёжное базовое отопление без лишних опций",
+            "hint": ""
+        },
+        "packages.t44": {
+            "id": "packages.t44",
+            "label": "Подпись к фото",
+            "type": "text",
+            "page": "packages",
+            "section": "Надёжное базовое отопление без лишних опций",
+            "hint": ""
+        },
+        "packages.image45": {
+            "id": "packages.image45",
+            "label": "Установленный радиатор отопления",
+            "type": "image",
+            "page": "packages",
+            "section": "Надёжное базовое отопление без лишних опций",
+            "hint": "",
+            "altId": "packages.image45.alt"
+        },
+        "packages.image45.alt": {
+            "id": "packages.image45.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "packages",
+            "section": "Надёжное базовое отопление без лишних опций",
+            "hint": ""
+        },
+        "packages.t46": {
+            "id": "packages.t46",
+            "label": "Подпись к фото",
+            "type": "text",
+            "page": "packages",
+            "section": "Надёжное базовое отопление без лишних опций",
+            "hint": ""
+        },
+        "packages.t47": {
+            "id": "packages.t47",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "packages",
+            "section": "Надёжное базовое отопление без лишних опций",
+            "hint": ""
+        },
+        "packages.t48": {
+            "id": "packages.t48",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Надёжное базовое отопление без лишних опций",
+            "hint": ""
+        },
+        "packages.t49": {
+            "id": "packages.t49",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Надёжное базовое отопление без лишних опций",
+            "hint": ""
+        },
+        "packages.t50": {
+            "id": "packages.t50",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Надёжное базовое отопление без лишних опций",
+            "hint": ""
+        },
+        "packages.t51": {
+            "id": "packages.t51",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Надёжное базовое отопление без лишних опций",
+            "hint": ""
+        },
+        "packages.t52": {
+            "id": "packages.t52",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Комфорт для всего дома и удобное управление контурами",
+            "hint": ""
+        },
+        "packages.t53": {
+            "id": "packages.t53",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "packages",
+            "section": "Комфорт для всего дома и удобное управление контурами",
+            "hint": ""
+        },
+        "packages.t54": {
+            "id": "packages.t54",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "packages",
+            "section": "Комфорт для всего дома и удобное управление контурами",
+            "hint": ""
+        },
+        "packages.t55": {
+            "id": "packages.t55",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Комфорт для всего дома и удобное управление контурами",
+            "hint": ""
+        },
+        "packages.t56": {
+            "id": "packages.t56",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Комфорт для всего дома и удобное управление контурами",
+            "hint": ""
+        },
+        "packages.t57": {
+            "id": "packages.t57",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Комфорт для всего дома и удобное управление контурами",
+            "hint": ""
+        },
+        "packages.t58": {
+            "id": "packages.t58",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Комфорт для всего дома и удобное управление контурами",
+            "hint": ""
+        },
+        "packages.t59": {
+            "id": "packages.t59",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "packages",
+            "section": "Комфорт для всего дома и удобное управление контурами",
+            "hint": ""
+        },
+        "packages.image60": {
+            "id": "packages.image60",
+            "label": "Коллекторные узлы и котёл уровня Стандарт",
+            "type": "image",
+            "page": "packages",
+            "section": "Комфорт для всего дома и удобное управление контурами",
+            "hint": "",
+            "altId": "packages.image60.alt"
+        },
+        "packages.image60.alt": {
+            "id": "packages.image60.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "packages",
+            "section": "Комфорт для всего дома и удобное управление контурами",
+            "hint": ""
+        },
+        "packages.t61": {
+            "id": "packages.t61",
+            "label": "Подпись к фото",
+            "type": "text",
+            "page": "packages",
+            "section": "Комфорт для всего дома и удобное управление контурами",
+            "hint": ""
+        },
+        "packages.image62": {
+            "id": "packages.image62",
+            "label": "Контуры водяного тёплого пола",
+            "type": "image",
+            "page": "packages",
+            "section": "Комфорт для всего дома и удобное управление контурами",
+            "hint": "",
+            "altId": "packages.image62.alt"
+        },
+        "packages.image62.alt": {
+            "id": "packages.image62.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "packages",
+            "section": "Комфорт для всего дома и удобное управление контурами",
+            "hint": ""
+        },
+        "packages.t63": {
+            "id": "packages.t63",
+            "label": "Подпись к фото",
+            "type": "text",
+            "page": "packages",
+            "section": "Комфорт для всего дома и удобное управление контурами",
+            "hint": ""
+        },
+        "packages.t64": {
+            "id": "packages.t64",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "packages",
+            "section": "Комфорт для всего дома и удобное управление контурами",
+            "hint": ""
+        },
+        "packages.t65": {
+            "id": "packages.t65",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Комфорт для всего дома и удобное управление контурами",
+            "hint": ""
+        },
+        "packages.t66": {
+            "id": "packages.t66",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Комфорт для всего дома и удобное управление контурами",
+            "hint": ""
+        },
+        "packages.t67": {
+            "id": "packages.t67",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Комфорт для всего дома и удобное управление контурами",
+            "hint": ""
+        },
+        "packages.t68": {
+            "id": "packages.t68",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Комфорт для всего дома и удобное управление контурами",
+            "hint": ""
+        },
+        "packages.t69": {
+            "id": "packages.t69",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Все инженерные системы дома в едином комплексе",
+            "hint": ""
+        },
+        "packages.t70": {
+            "id": "packages.t70",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "packages",
+            "section": "Все инженерные системы дома в едином комплексе",
+            "hint": ""
+        },
+        "packages.t71": {
+            "id": "packages.t71",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "packages",
+            "section": "Все инженерные системы дома в едином комплексе",
+            "hint": ""
+        },
+        "packages.t72": {
+            "id": "packages.t72",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Все инженерные системы дома в едином комплексе",
+            "hint": ""
+        },
+        "packages.t73": {
+            "id": "packages.t73",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "packages",
+            "section": "Все инженерные системы дома в едином комплексе",
+            "hint": ""
+        },
+        "packages.t74": {
+            "id": "packages.t74",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Все инженерные системы дома в едином комплексе",
+            "hint": ""
+        },
+        "packages.t75": {
+            "id": "packages.t75",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Все инженерные системы дома в едином комплексе",
+            "hint": ""
+        },
+        "packages.t76": {
+            "id": "packages.t76",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "packages",
+            "section": "Все инженерные системы дома в едином комплексе",
+            "hint": ""
+        },
+        "packages.image77": {
+            "id": "packages.image77",
+            "label": "Визуализация премиальной котельной с двумя котлами, бойлером, автоматикой и обвязкой из нержавеющей стали",
+            "type": "image",
+            "page": "packages",
+            "section": "Все инженерные системы дома в едином комплексе",
+            "hint": "",
+            "altId": "packages.image77.alt"
+        },
+        "packages.image77.alt": {
+            "id": "packages.image77.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "packages",
+            "section": "Все инженерные системы дома в едином комплексе",
+            "hint": ""
+        },
+        "packages.t78": {
+            "id": "packages.t78",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Все инженерные системы дома в едином комплексе",
+            "hint": ""
+        },
+        "packages.t79": {
+            "id": "packages.t79",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Все инженерные системы дома в едином комплексе",
+            "hint": ""
+        },
+        "packages.image80": {
+            "id": "packages.image80",
+            "label": "Обвязка котельной из нержавеющей стали",
+            "type": "image",
+            "page": "packages",
+            "section": "Все инженерные системы дома в едином комплексе",
+            "hint": "",
+            "altId": "packages.image80.alt"
+        },
+        "packages.image80.alt": {
+            "id": "packages.image80.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "packages",
+            "section": "Все инженерные системы дома в едином комплексе",
+            "hint": ""
+        },
+        "packages.t81": {
+            "id": "packages.t81",
+            "label": "Подпись к фото",
+            "type": "text",
+            "page": "packages",
+            "section": "Все инженерные системы дома в едином комплексе",
+            "hint": ""
+        },
+        "packages.image82": {
+            "id": "packages.image82",
+            "label": "Коллекторные узлы премиальной инженерной системы",
+            "type": "image",
+            "page": "packages",
+            "section": "Все инженерные системы дома в едином комплексе",
+            "hint": "",
+            "altId": "packages.image82.alt"
+        },
+        "packages.image82.alt": {
+            "id": "packages.image82.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "packages",
+            "section": "Все инженерные системы дома в едином комплексе",
+            "hint": ""
+        },
+        "packages.t83": {
+            "id": "packages.t83",
+            "label": "Подпись к фото",
+            "type": "text",
+            "page": "packages",
+            "section": "Все инженерные системы дома в едином комплексе",
+            "hint": ""
+        },
+        "packages.t84": {
+            "id": "packages.t84",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "packages",
+            "section": "Все инженерные системы дома в едином комплексе",
+            "hint": ""
+        },
+        "packages.t85": {
+            "id": "packages.t85",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Все инженерные системы дома в едином комплексе",
+            "hint": ""
+        },
+        "packages.t86": {
+            "id": "packages.t86",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Все инженерные системы дома в едином комплексе",
+            "hint": ""
+        },
+        "packages.t87": {
+            "id": "packages.t87",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Все инженерные системы дома в едином комплексе",
+            "hint": ""
+        },
+        "packages.t88": {
+            "id": "packages.t88",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Все инженерные системы дома в едином комплексе",
+            "hint": ""
+        },
+        "packages.t89": {
+            "id": "packages.t89",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Возьмите основу и добавьте только нужное",
+            "hint": ""
+        },
+        "packages.t90": {
+            "id": "packages.t90",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "packages",
+            "section": "Возьмите основу и добавьте только нужное",
+            "hint": ""
+        },
+        "packages.t91": {
+            "id": "packages.t91",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "packages",
+            "section": "Возьмите основу и добавьте только нужное",
+            "hint": ""
+        },
+        "packages.t92": {
+            "id": "packages.t92",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Возьмите основу и добавьте только нужное",
+            "hint": ""
+        },
+        "packages.t93": {
+            "id": "packages.t93",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "packages",
+            "section": "Возьмите основу и добавьте только нужное",
+            "hint": ""
+        },
+        "packages.t94": {
+            "id": "packages.t94",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "packages",
+            "section": "Точная стоимость начинается с объекта",
+            "hint": ""
+        },
+        "packages.t95": {
+            "id": "packages.t95",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "packages",
+            "section": "Точная стоимость начинается с объекта",
+            "hint": ""
+        },
+        "packages.t96": {
+            "id": "packages.t96",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "packages",
+            "section": "Точная стоимость начинается с объекта",
+            "hint": ""
+        },
+        "packages.t97": {
+            "id": "packages.t97",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "packages",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "packages.t98": {
+            "id": "packages.t98",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "packages.t99": {
+            "id": "packages.t99",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "packages",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "packages.t100": {
+            "id": "packages.t100",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "packages.t101": {
+            "id": "packages.t101",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "packages",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "packages.t102": {
+            "id": "packages.t102",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "packages",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "packages.t103": {
+            "id": "packages.t103",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "packages",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "packages.t104": {
+            "id": "packages.t104",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "packages",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "packages.t105": {
+            "id": "packages.t105",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "packages",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "packages.t106": {
+            "id": "packages.t106",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "packages.t107": {
+            "id": "packages.t107",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "packages.t108": {
+            "id": "packages.t108",
+            "label": "Подпись для доступности",
+            "type": "text",
+            "page": "packages",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "packages.t109": {
+            "id": "packages.t109",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "packages.t110": {
+            "id": "packages.t110",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "packages",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "packages.t111": {
+            "id": "packages.t111",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "packages.t112": {
+            "id": "packages.t112",
+            "label": "Название поля",
+            "type": "text",
+            "page": "packages",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "packages.t113": {
+            "id": "packages.t113",
+            "label": "Название поля",
+            "type": "text",
+            "page": "packages",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "packages.t114": {
+            "id": "packages.t114",
+            "label": "Подсказка в поле",
+            "type": "text",
+            "page": "packages",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "packages.t115": {
+            "id": "packages.t115",
+            "label": "Название поля",
+            "type": "text",
+            "page": "packages",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "packages.t116": {
+            "id": "packages.t116",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "packages.t117": {
+            "id": "packages.t117",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "packages.t118": {
+            "id": "packages.t118",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "packages.t119": {
+            "id": "packages.t119",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "packages.t120": {
+            "id": "packages.t120",
+            "label": "Название поля",
+            "type": "text",
+            "page": "packages",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "packages.t121": {
+            "id": "packages.t121",
+            "label": "Подсказка в поле",
+            "type": "text",
+            "page": "packages",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "packages.t122": {
+            "id": "packages.t122",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "packages",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "packages.t123": {
+            "id": "packages.t123",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "packages.t124": {
+            "id": "packages.t124",
+            "label": "Текст",
+            "type": "text",
+            "page": "packages",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "packages.t125": {
+            "id": "packages.t125",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "packages",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "prices.seo.title": {
+            "id": "prices.seo.title",
+            "label": "Заголовок в поиске (title)",
+            "type": "text",
+            "page": "prices",
+            "section": "SEO",
+            "hint": ""
+        },
+        "prices.seo.description": {
+            "id": "prices.seo.description",
+            "label": "Описание в поиске (description)",
+            "type": "textarea",
+            "page": "prices",
+            "section": "SEO",
+            "hint": ""
+        },
+        "prices.seo.index": {
+            "id": "prices.seo.index",
+            "label": "Разрешить индексацию страницы",
+            "type": "toggle",
+            "page": "prices",
+            "section": "SEO",
+            "hint": ""
+        },
+        "prices.seo.canonical": {
+            "id": "prices.seo.canonical",
+            "label": "Канонический адрес",
+            "type": "url",
+            "page": "prices",
+            "section": "SEO",
+            "hint": ""
+        },
+        "prices.seo.image": {
+            "id": "prices.seo.image",
+            "label": "Фото для социальных сетей",
+            "type": "image",
+            "page": "prices",
+            "section": "SEO",
+            "hint": ""
+        },
+        "prices.t3": {
+            "id": "prices.t3",
+            "label": "Подпись для доступности",
+            "type": "text",
+            "page": "prices",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "prices.t4": {
+            "id": "prices.t4",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "prices",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "prices.t5": {
+            "id": "prices.t5",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "prices",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "prices.t6": {
+            "id": "prices.t6",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "prices",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "prices.t7": {
+            "id": "prices.t7",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "prices",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "prices.t8": {
+            "id": "prices.t8",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "prices",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "prices.t9": {
+            "id": "prices.t9",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "prices",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "prices.t10": {
+            "id": "prices.t10",
+            "label": "Подпись для доступности",
+            "type": "text",
+            "page": "prices",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "prices.t11": {
+            "id": "prices.t11",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "prices",
+            "section": "Понятные ориентиры до выезда",
+            "hint": ""
+        },
+        "prices.t12": {
+            "id": "prices.t12",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Понятные ориентиры до выезда",
+            "hint": ""
+        },
+        "prices.t13": {
+            "id": "prices.t13",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Понятные ориентиры до выезда",
+            "hint": ""
+        },
+        "prices.t14": {
+            "id": "prices.t14",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "prices",
+            "section": "Понятные ориентиры до выезда",
+            "hint": ""
+        },
+        "prices.t15": {
+            "id": "prices.t15",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "prices",
+            "section": "Понятные ориентиры до выезда",
+            "hint": ""
+        },
+        "prices.t16": {
+            "id": "prices.t16",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t17": {
+            "id": "prices.t17",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t18": {
+            "id": "prices.t18",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t19": {
+            "id": "prices.t19",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t20": {
+            "id": "prices.t20",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t21": {
+            "id": "prices.t21",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t22": {
+            "id": "prices.t22",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t23": {
+            "id": "prices.t23",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t24": {
+            "id": "prices.t24",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t25": {
+            "id": "prices.t25",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t26": {
+            "id": "prices.t26",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t27": {
+            "id": "prices.t27",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t28": {
+            "id": "prices.t28",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t29": {
+            "id": "prices.t29",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t30": {
+            "id": "prices.t30",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t31": {
+            "id": "prices.t31",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t32": {
+            "id": "prices.t32",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t33": {
+            "id": "prices.t33",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t34": {
+            "id": "prices.t34",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t35": {
+            "id": "prices.t35",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t36": {
+            "id": "prices.t36",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t37": {
+            "id": "prices.t37",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t38": {
+            "id": "prices.t38",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t39": {
+            "id": "prices.t39",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t40": {
+            "id": "prices.t40",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t41": {
+            "id": "prices.t41",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t42": {
+            "id": "prices.t42",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t43": {
+            "id": "prices.t43",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t44": {
+            "id": "prices.t44",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t45": {
+            "id": "prices.t45",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t46": {
+            "id": "prices.t46",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t47": {
+            "id": "prices.t47",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t48": {
+            "id": "prices.t48",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t49": {
+            "id": "prices.t49",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t50": {
+            "id": "prices.t50",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t51": {
+            "id": "prices.t51",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t52": {
+            "id": "prices.t52",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t53": {
+            "id": "prices.t53",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t54": {
+            "id": "prices.t54",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t55": {
+            "id": "prices.t55",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t56": {
+            "id": "prices.t56",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t57": {
+            "id": "prices.t57",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t58": {
+            "id": "prices.t58",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t59": {
+            "id": "prices.t59",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t60": {
+            "id": "prices.t60",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t61": {
+            "id": "prices.t61",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t62": {
+            "id": "prices.t62",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Цена зависит от объекта, а не от впечатления",
+            "hint": ""
+        },
+        "prices.t63": {
+            "id": "prices.t63",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Прикиньте порядок бюджета",
+            "hint": ""
+        },
+        "prices.t64": {
+            "id": "prices.t64",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "prices",
+            "section": "Прикиньте порядок бюджета",
+            "hint": ""
+        },
+        "prices.t65": {
+            "id": "prices.t65",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "prices",
+            "section": "Прикиньте порядок бюджета",
+            "hint": ""
+        },
+        "prices.t66": {
+            "id": "prices.t66",
+            "label": "Название поля",
+            "type": "text",
+            "page": "prices",
+            "section": "Прикиньте порядок бюджета",
+            "hint": ""
+        },
+        "prices.t67": {
+            "id": "prices.t67",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Прикиньте порядок бюджета",
+            "hint": ""
+        },
+        "prices.t68": {
+            "id": "prices.t68",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Прикиньте порядок бюджета",
+            "hint": ""
+        },
+        "prices.t69": {
+            "id": "prices.t69",
+            "label": "Название поля",
+            "type": "text",
+            "page": "prices",
+            "section": "Прикиньте порядок бюджета",
+            "hint": ""
+        },
+        "prices.t70": {
+            "id": "prices.t70",
+            "label": "Название поля",
+            "type": "text",
+            "page": "prices",
+            "section": "Прикиньте порядок бюджета",
+            "hint": ""
+        },
+        "prices.t71": {
+            "id": "prices.t71",
+            "label": "Название поля",
+            "type": "text",
+            "page": "prices",
+            "section": "Прикиньте порядок бюджета",
+            "hint": ""
+        },
+        "prices.t72": {
+            "id": "prices.t72",
+            "label": "Название поля",
+            "type": "text",
+            "page": "prices",
+            "section": "Прикиньте порядок бюджета",
+            "hint": ""
+        },
+        "prices.t73": {
+            "id": "prices.t73",
+            "label": "Название поля",
+            "type": "text",
+            "page": "prices",
+            "section": "Прикиньте порядок бюджета",
+            "hint": ""
+        },
+        "prices.t74": {
+            "id": "prices.t74",
+            "label": "Название поля",
+            "type": "text",
+            "page": "prices",
+            "section": "Прикиньте порядок бюджета",
+            "hint": ""
+        },
+        "prices.t75": {
+            "id": "prices.t75",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Прикиньте порядок бюджета",
+            "hint": ""
+        },
+        "prices.t76": {
+            "id": "prices.t76",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Прикиньте порядок бюджета",
+            "hint": ""
+        },
+        "prices.t77": {
+            "id": "prices.t77",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "prices",
+            "section": "Прикиньте порядок бюджета",
+            "hint": ""
+        },
+        "prices.t78": {
+            "id": "prices.t78",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Что важно знать заранее",
+            "hint": ""
+        },
+        "prices.t79": {
+            "id": "prices.t79",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "prices",
+            "section": "Что важно знать заранее",
+            "hint": ""
+        },
+        "prices.t80": {
+            "id": "prices.t80",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Что важно знать заранее",
+            "hint": ""
+        },
+        "prices.t81": {
+            "id": "prices.t81",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "prices",
+            "section": "Что важно знать заранее",
+            "hint": ""
+        },
+        "prices.t82": {
+            "id": "prices.t82",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Что важно знать заранее",
+            "hint": ""
+        },
+        "prices.t83": {
+            "id": "prices.t83",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "prices",
+            "section": "Что важно знать заранее",
+            "hint": ""
+        },
+        "prices.t84": {
+            "id": "prices.t84",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Что важно знать заранее",
+            "hint": ""
+        },
+        "prices.t85": {
+            "id": "prices.t85",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "prices",
+            "section": "Что важно знать заранее",
+            "hint": ""
+        },
+        "prices.t86": {
+            "id": "prices.t86",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "prices.t87": {
+            "id": "prices.t87",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "prices",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "prices.t88": {
+            "id": "prices.t88",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "prices.t89": {
+            "id": "prices.t89",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "prices",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "prices.t90": {
+            "id": "prices.t90",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "prices.t91": {
+            "id": "prices.t91",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "prices",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "prices.t92": {
+            "id": "prices.t92",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "prices",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "prices.t93": {
+            "id": "prices.t93",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "prices",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "prices.t94": {
+            "id": "prices.t94",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "prices",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "prices.t95": {
+            "id": "prices.t95",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "prices",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "prices.t96": {
+            "id": "prices.t96",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "prices.t97": {
+            "id": "prices.t97",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "prices.t98": {
+            "id": "prices.t98",
+            "label": "Подпись для доступности",
+            "type": "text",
+            "page": "prices",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "prices.t99": {
+            "id": "prices.t99",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "prices.t100": {
+            "id": "prices.t100",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "prices",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "prices.t101": {
+            "id": "prices.t101",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "prices.t102": {
+            "id": "prices.t102",
+            "label": "Название поля",
+            "type": "text",
+            "page": "prices",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "prices.t103": {
+            "id": "prices.t103",
+            "label": "Название поля",
+            "type": "text",
+            "page": "prices",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "prices.t104": {
+            "id": "prices.t104",
+            "label": "Подсказка в поле",
+            "type": "text",
+            "page": "prices",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "prices.t105": {
+            "id": "prices.t105",
+            "label": "Название поля",
+            "type": "text",
+            "page": "prices",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "prices.t106": {
+            "id": "prices.t106",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "prices.t107": {
+            "id": "prices.t107",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "prices.t108": {
+            "id": "prices.t108",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "prices.t109": {
+            "id": "prices.t109",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "prices.t110": {
+            "id": "prices.t110",
+            "label": "Название поля",
+            "type": "text",
+            "page": "prices",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "prices.t111": {
+            "id": "prices.t111",
+            "label": "Подсказка в поле",
+            "type": "text",
+            "page": "prices",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "prices.t112": {
+            "id": "prices.t112",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "prices",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "prices.t113": {
+            "id": "prices.t113",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "prices.t114": {
+            "id": "prices.t114",
+            "label": "Текст",
+            "type": "text",
+            "page": "prices",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "prices.t115": {
+            "id": "prices.t115",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "prices",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "works.seo.title": {
+            "id": "works.seo.title",
+            "label": "Заголовок в поиске (title)",
+            "type": "text",
+            "page": "works",
+            "section": "SEO",
+            "hint": ""
+        },
+        "works.seo.description": {
+            "id": "works.seo.description",
+            "label": "Описание в поиске (description)",
+            "type": "textarea",
+            "page": "works",
+            "section": "SEO",
+            "hint": ""
+        },
+        "works.seo.index": {
+            "id": "works.seo.index",
+            "label": "Разрешить индексацию страницы",
+            "type": "toggle",
+            "page": "works",
+            "section": "SEO",
+            "hint": ""
+        },
+        "works.seo.canonical": {
+            "id": "works.seo.canonical",
+            "label": "Канонический адрес",
+            "type": "url",
+            "page": "works",
+            "section": "SEO",
+            "hint": ""
+        },
+        "works.seo.image": {
+            "id": "works.seo.image",
+            "label": "Фото для социальных сетей",
+            "type": "image",
+            "page": "works",
+            "section": "SEO",
+            "hint": ""
+        },
+        "works.t3": {
+            "id": "works.t3",
+            "label": "Подпись для доступности",
+            "type": "text",
+            "page": "works",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "works.t4": {
+            "id": "works.t4",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "works",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "works.t5": {
+            "id": "works.t5",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "works",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "works.t6": {
+            "id": "works.t6",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "works",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "works.t7": {
+            "id": "works.t7",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "works",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "works.t8": {
+            "id": "works.t8",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "works",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "works.t9": {
+            "id": "works.t9",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "works",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "works.t10": {
+            "id": "works.t10",
+            "label": "Подпись для доступности",
+            "type": "text",
+            "page": "works",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "works.image11": {
+            "id": "works.image11",
+            "label": "Готовая котельная в частном доме",
+            "type": "image",
+            "page": "works",
+            "section": "Результат, который можно рассмотреть",
+            "hint": "",
+            "altId": "works.image11.alt"
+        },
+        "works.image11.alt": {
+            "id": "works.image11.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "works",
+            "section": "Результат, который можно рассмотреть",
+            "hint": ""
+        },
+        "works.t12": {
+            "id": "works.t12",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "works",
+            "section": "Результат, который можно рассмотреть",
+            "hint": ""
+        },
+        "works.t13": {
+            "id": "works.t13",
+            "label": "Текст",
+            "type": "text",
+            "page": "works",
+            "section": "Результат, который можно рассмотреть",
+            "hint": ""
+        },
+        "works.t14": {
+            "id": "works.t14",
+            "label": "Текст",
+            "type": "text",
+            "page": "works",
+            "section": "Результат, который можно рассмотреть",
+            "hint": ""
+        },
+        "works.t15": {
+            "id": "works.t15",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "works",
+            "section": "Результат, который можно рассмотреть",
+            "hint": ""
+        },
+        "works.t16": {
+            "id": "works.t16",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "works",
+            "section": "Результат, который можно рассмотреть",
+            "hint": ""
+        },
+        "works.t17": {
+            "id": "works.t17",
+            "label": "Текст",
+            "type": "text",
+            "page": "works",
+            "section": "Аккуратность — не декор, а часть надёжности",
+            "hint": ""
+        },
+        "works.t18": {
+            "id": "works.t18",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "works",
+            "section": "Аккуратность — не декор, а часть надёжности",
+            "hint": ""
+        },
+        "works.t19": {
+            "id": "works.t19",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "works",
+            "section": "Аккуратность — не декор, а часть надёжности",
+            "hint": ""
+        },
+        "works.t20": {
+            "id": "works.t20",
+            "label": "Текст",
+            "type": "text",
+            "page": "works",
+            "section": "Котельные и распределительные узлы",
+            "hint": ""
+        },
+        "works.t21": {
+            "id": "works.t21",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "works",
+            "section": "Котельные и распределительные узлы",
+            "hint": ""
+        },
+        "works.t22": {
+            "id": "works.t22",
+            "label": "Текст",
+            "type": "text",
+            "page": "works",
+            "section": "Котельные и распределительные узлы",
+            "hint": ""
+        },
+        "works.t23": {
+            "id": "works.t23",
+            "label": "Текст",
+            "type": "text",
+            "page": "works",
+            "section": "Котельные и распределительные узлы",
+            "hint": ""
+        },
+        "works.t24": {
+            "id": "works.t24",
+            "label": "Текст",
+            "type": "text",
+            "page": "works",
+            "section": "Котельные и распределительные узлы",
+            "hint": ""
+        },
+        "works.image25": {
+            "id": "works.image25",
+            "label": "Смонтированный распределительный узел котельной",
+            "type": "image",
+            "page": "works",
+            "section": "Котельные и распределительные узлы",
+            "hint": "",
+            "altId": "works.image25.alt"
+        },
+        "works.image25.alt": {
+            "id": "works.image25.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "works",
+            "section": "Котельные и распределительные узлы",
+            "hint": ""
+        },
+        "works.t26": {
+            "id": "works.t26",
+            "label": "Подпись к фото",
+            "type": "text",
+            "page": "works",
+            "section": "Котельные и распределительные узлы",
+            "hint": ""
+        },
+        "works.image27": {
+            "id": "works.image27",
+            "label": "Готовая инженерная комната частного дома",
+            "type": "image",
+            "page": "works",
+            "section": "Котельные и распределительные узлы",
+            "hint": "",
+            "altId": "works.image27.alt"
+        },
+        "works.image27.alt": {
+            "id": "works.image27.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "works",
+            "section": "Котельные и распределительные узлы",
+            "hint": ""
+        },
+        "works.t28": {
+            "id": "works.t28",
+            "label": "Подпись к фото",
+            "type": "text",
+            "page": "works",
+            "section": "Котельные и распределительные узлы",
+            "hint": ""
+        },
+        "works.t29": {
+            "id": "works.t29",
+            "label": "Текст",
+            "type": "text",
+            "page": "works",
+            "section": "Коллекторы, фильтрация и автоматика",
+            "hint": ""
+        },
+        "works.t30": {
+            "id": "works.t30",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "works",
+            "section": "Коллекторы, фильтрация и автоматика",
+            "hint": ""
+        },
+        "works.t31": {
+            "id": "works.t31",
+            "label": "Текст",
+            "type": "text",
+            "page": "works",
+            "section": "Коллекторы, фильтрация и автоматика",
+            "hint": ""
+        },
+        "works.t32": {
+            "id": "works.t32",
+            "label": "Текст",
+            "type": "text",
+            "page": "works",
+            "section": "Коллекторы, фильтрация и автоматика",
+            "hint": ""
+        },
+        "works.t33": {
+            "id": "works.t33",
+            "label": "Текст",
+            "type": "text",
+            "page": "works",
+            "section": "Коллекторы, фильтрация и автоматика",
+            "hint": ""
+        },
+        "works.image34": {
+            "id": "works.image34",
+            "label": "Готовый коллекторный узел водоснабжения",
+            "type": "image",
+            "page": "works",
+            "section": "Коллекторы, фильтрация и автоматика",
+            "hint": "",
+            "altId": "works.image34.alt"
+        },
+        "works.image34.alt": {
+            "id": "works.image34.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "works",
+            "section": "Коллекторы, фильтрация и автоматика",
+            "hint": ""
+        },
+        "works.t35": {
+            "id": "works.t35",
+            "label": "Подпись к фото",
+            "type": "text",
+            "page": "works",
+            "section": "Коллекторы, фильтрация и автоматика",
+            "hint": ""
+        },
+        "works.image36": {
+            "id": "works.image36",
+            "label": "Система поконтурного управления отоплением",
+            "type": "image",
+            "page": "works",
+            "section": "Коллекторы, фильтрация и автоматика",
+            "hint": "",
+            "altId": "works.image36.alt"
+        },
+        "works.image36.alt": {
+            "id": "works.image36.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "works",
+            "section": "Коллекторы, фильтрация и автоматика",
+            "hint": ""
+        },
+        "works.t37": {
+            "id": "works.t37",
+            "label": "Подпись к фото",
+            "type": "text",
+            "page": "works",
+            "section": "Коллекторы, фильтрация и автоматика",
+            "hint": ""
+        },
+        "works.t38": {
+            "id": "works.t38",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "works",
+            "section": "Коллекторы, фильтрация и автоматика",
+            "hint": ""
+        },
+        "works.t39": {
+            "id": "works.t39",
+            "label": "Текст",
+            "type": "text",
+            "page": "works",
+            "section": "Монтаж в деталях",
+            "hint": ""
+        },
+        "works.t40": {
+            "id": "works.t40",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "works",
+            "section": "Монтаж в деталях",
+            "hint": ""
+        },
+        "works.t41": {
+            "id": "works.t41",
+            "label": "Текст",
+            "type": "text",
+            "page": "works",
+            "section": "Монтаж в деталях",
+            "hint": ""
+        },
+        "works.image42": {
+            "id": "works.image42",
+            "label": "Инженерная комната с медными и стальными трубопроводами",
+            "type": "image",
+            "page": "works",
+            "section": "Монтаж в деталях",
+            "hint": "",
+            "altId": "works.image42.alt"
+        },
+        "works.image42.alt": {
+            "id": "works.image42.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "works",
+            "section": "Монтаж в деталях",
+            "hint": ""
+        },
+        "works.t43": {
+            "id": "works.t43",
+            "label": "Подпись к фото",
+            "type": "text",
+            "page": "works",
+            "section": "Монтаж в деталях",
+            "hint": ""
+        },
+        "works.image44": {
+            "id": "works.image44",
+            "label": "Точная установка радиаторного подключения по лазеру",
+            "type": "image",
+            "page": "works",
+            "section": "Монтаж в деталях",
+            "hint": "",
+            "altId": "works.image44.alt"
+        },
+        "works.image44.alt": {
+            "id": "works.image44.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "works",
+            "section": "Монтаж в деталях",
+            "hint": ""
+        },
+        "works.t45": {
+            "id": "works.t45",
+            "label": "Подпись к фото",
+            "type": "text",
+            "page": "works",
+            "section": "Монтаж в деталях",
+            "hint": ""
+        },
+        "works.image46": {
+            "id": "works.image46",
+            "label": "Монтаж контуров тёплого пола",
+            "type": "image",
+            "page": "works",
+            "section": "Монтаж в деталях",
+            "hint": "",
+            "altId": "works.image46.alt"
+        },
+        "works.image46.alt": {
+            "id": "works.image46.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "works",
+            "section": "Монтаж в деталях",
+            "hint": ""
+        },
+        "works.t47": {
+            "id": "works.t47",
+            "label": "Подпись к фото",
+            "type": "text",
+            "page": "works",
+            "section": "Монтаж в деталях",
+            "hint": ""
+        },
+        "works.image48": {
+            "id": "works.image48",
+            "label": "Коллекторный узел с сервоприводами",
+            "type": "image",
+            "page": "works",
+            "section": "Монтаж в деталях",
+            "hint": "",
+            "altId": "works.image48.alt"
+        },
+        "works.image48.alt": {
+            "id": "works.image48.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "works",
+            "section": "Монтаж в деталях",
+            "hint": ""
+        },
+        "works.t49": {
+            "id": "works.t49",
+            "label": "Подпись к фото",
+            "type": "text",
+            "page": "works",
+            "section": "Монтаж в деталях",
+            "hint": ""
+        },
+        "works.image50": {
+            "id": "works.image50",
+            "label": "Пусконаладка инженерной системы",
+            "type": "image",
+            "page": "works",
+            "section": "Монтаж в деталях",
+            "hint": "",
+            "altId": "works.image50.alt"
+        },
+        "works.image50.alt": {
+            "id": "works.image50.alt",
+            "label": "Описание фотографии (alt)",
+            "type": "text",
+            "page": "works",
+            "section": "Монтаж в деталях",
+            "hint": ""
+        },
+        "works.t51": {
+            "id": "works.t51",
+            "label": "Подпись к фото",
+            "type": "text",
+            "page": "works",
+            "section": "Монтаж в деталях",
+            "hint": ""
+        },
+        "works.t52": {
+            "id": "works.t52",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "works",
+            "section": "Покажите ваш объект",
+            "hint": ""
+        },
+        "works.t53": {
+            "id": "works.t53",
+            "label": "Текст",
+            "type": "text",
+            "page": "works",
+            "section": "Покажите ваш объект",
+            "hint": ""
+        },
+        "works.t54": {
+            "id": "works.t54",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "works",
+            "section": "Покажите ваш объект",
+            "hint": ""
+        },
+        "works.t55": {
+            "id": "works.t55",
+            "label": "Текст",
+            "type": "text",
+            "page": "works",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "works.t56": {
+            "id": "works.t56",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "works",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "works.t57": {
+            "id": "works.t57",
+            "label": "Текст",
+            "type": "text",
+            "page": "works",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "works.t58": {
+            "id": "works.t58",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "works",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "works.t59": {
+            "id": "works.t59",
+            "label": "Текст",
+            "type": "text",
+            "page": "works",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "works.t60": {
+            "id": "works.t60",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "works",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "works.t61": {
+            "id": "works.t61",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "works",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "works.t62": {
+            "id": "works.t62",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "works",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "works.t63": {
+            "id": "works.t63",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "works",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "works.t64": {
+            "id": "works.t64",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "works",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "works.t65": {
+            "id": "works.t65",
+            "label": "Текст",
+            "type": "text",
+            "page": "works",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "works.t66": {
+            "id": "works.t66",
+            "label": "Текст",
+            "type": "text",
+            "page": "works",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "works.t67": {
+            "id": "works.t67",
+            "label": "Подпись для доступности",
+            "type": "text",
+            "page": "works",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "works.t68": {
+            "id": "works.t68",
+            "label": "Текст",
+            "type": "text",
+            "page": "works",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "works.t69": {
+            "id": "works.t69",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "works",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "works.t70": {
+            "id": "works.t70",
+            "label": "Название поля",
+            "type": "text",
+            "page": "works",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "works.t71": {
+            "id": "works.t71",
+            "label": "Название поля",
+            "type": "text",
+            "page": "works",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "works.t72": {
+            "id": "works.t72",
+            "label": "Подсказка в поле",
+            "type": "text",
+            "page": "works",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "works.t73": {
+            "id": "works.t73",
+            "label": "Название поля",
+            "type": "text",
+            "page": "works",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "works.t74": {
+            "id": "works.t74",
+            "label": "Подсказка в поле",
+            "type": "text",
+            "page": "works",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "works.t75": {
+            "id": "works.t75",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "works",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "works.t76": {
+            "id": "works.t76",
+            "label": "Текст",
+            "type": "text",
+            "page": "works",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "works.t77": {
+            "id": "works.t77",
+            "label": "Текст",
+            "type": "text",
+            "page": "works",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "works.t78": {
+            "id": "works.t78",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "works",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "contacts.seo.title": {
+            "id": "contacts.seo.title",
+            "label": "Заголовок в поиске (title)",
+            "type": "text",
+            "page": "contacts",
+            "section": "SEO",
+            "hint": ""
+        },
+        "contacts.seo.description": {
+            "id": "contacts.seo.description",
+            "label": "Описание в поиске (description)",
+            "type": "textarea",
+            "page": "contacts",
+            "section": "SEO",
+            "hint": ""
+        },
+        "contacts.seo.index": {
+            "id": "contacts.seo.index",
+            "label": "Разрешить индексацию страницы",
+            "type": "toggle",
+            "page": "contacts",
+            "section": "SEO",
+            "hint": ""
+        },
+        "contacts.seo.canonical": {
+            "id": "contacts.seo.canonical",
+            "label": "Канонический адрес",
+            "type": "url",
+            "page": "contacts",
+            "section": "SEO",
+            "hint": ""
+        },
+        "contacts.seo.image": {
+            "id": "contacts.seo.image",
+            "label": "Фото для социальных сетей",
+            "type": "image",
+            "page": "contacts",
+            "section": "SEO",
+            "hint": ""
+        },
+        "contacts.t3": {
+            "id": "contacts.t3",
+            "label": "Подпись для доступности",
+            "type": "text",
+            "page": "contacts",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "contacts.t4": {
+            "id": "contacts.t4",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "contacts",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "contacts.t5": {
+            "id": "contacts.t5",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "contacts",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "contacts.t6": {
+            "id": "contacts.t6",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "contacts",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "contacts.t7": {
+            "id": "contacts.t7",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "contacts",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "contacts.t8": {
+            "id": "contacts.t8",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "contacts",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "contacts.t9": {
+            "id": "contacts.t9",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "contacts",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "contacts.t10": {
+            "id": "contacts.t10",
+            "label": "Подпись для доступности",
+            "type": "text",
+            "page": "contacts",
+            "section": "Шапка и меню",
+            "hint": ""
+        },
+        "contacts.t11": {
+            "id": "contacts.t11",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "contacts",
+            "section": "Расскажите задачу своими словами",
+            "hint": ""
+        },
+        "contacts.t12": {
+            "id": "contacts.t12",
+            "label": "Текст",
+            "type": "text",
+            "page": "contacts",
+            "section": "Расскажите задачу своими словами",
+            "hint": ""
+        },
+        "contacts.t13": {
+            "id": "contacts.t13",
+            "label": "Текст",
+            "type": "text",
+            "page": "contacts",
+            "section": "Расскажите задачу своими словами",
+            "hint": ""
+        },
+        "contacts.t14": {
+            "id": "contacts.t14",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "contacts",
+            "section": "Расскажите задачу своими словами",
+            "hint": ""
+        },
+        "contacts.t15": {
+            "id": "contacts.t15",
+            "label": "Текст",
+            "type": "textarea",
+            "page": "contacts",
+            "section": "Расскажите задачу своими словами",
+            "hint": ""
+        },
+        "contacts.t16": {
+            "id": "contacts.t16",
+            "label": "Текст",
+            "type": "text",
+            "page": "contacts",
+            "section": "Ответим и предложим следующий шаг",
+            "hint": ""
+        },
+        "contacts.t17": {
+            "id": "contacts.t17",
+            "label": "Текст",
+            "type": "text",
+            "page": "contacts",
+            "section": "Ответим и предложим следующий шаг",
+            "hint": ""
+        },
+        "contacts.t18": {
+            "id": "contacts.t18",
+            "label": "Текст",
+            "type": "text",
+            "page": "contacts",
+            "section": "Ответим и предложим следующий шаг",
+            "hint": ""
+        },
+        "contacts.t19": {
+            "id": "contacts.t19",
+            "label": "Текст",
+            "type": "text",
+            "page": "contacts",
+            "section": "Ответим и предложим следующий шаг",
+            "hint": ""
+        },
+        "contacts.t20": {
+            "id": "contacts.t20",
+            "label": "Текст",
+            "type": "text",
+            "page": "contacts",
+            "section": "Ответим и предложим следующий шаг",
+            "hint": ""
+        },
+        "contacts.t21": {
+            "id": "contacts.t21",
+            "label": "Текст",
+            "type": "text",
+            "page": "contacts",
+            "section": "Ответим и предложим следующий шаг",
+            "hint": ""
+        },
+        "contacts.t22": {
+            "id": "contacts.t22",
+            "label": "Текст",
+            "type": "text",
+            "page": "contacts",
+            "section": "Ответим и предложим следующий шаг",
+            "hint": ""
+        },
+        "contacts.t23": {
+            "id": "contacts.t23",
+            "label": "Текст",
+            "type": "text",
+            "page": "contacts",
+            "section": "Ответим и предложим следующий шаг",
+            "hint": ""
+        },
+        "contacts.t24": {
+            "id": "contacts.t24",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "contacts",
+            "section": "Ответим и предложим следующий шаг",
+            "hint": ""
+        },
+        "contacts.t25": {
+            "id": "contacts.t25",
+            "label": "Название поля",
+            "type": "text",
+            "page": "contacts",
+            "section": "Ответим и предложим следующий шаг",
+            "hint": ""
+        },
+        "contacts.t26": {
+            "id": "contacts.t26",
+            "label": "Название поля",
+            "type": "text",
+            "page": "contacts",
+            "section": "Ответим и предложим следующий шаг",
+            "hint": ""
+        },
+        "contacts.t27": {
+            "id": "contacts.t27",
+            "label": "Подсказка в поле",
+            "type": "text",
+            "page": "contacts",
+            "section": "Ответим и предложим следующий шаг",
+            "hint": ""
+        },
+        "contacts.t28": {
+            "id": "contacts.t28",
+            "label": "Название поля",
+            "type": "text",
+            "page": "contacts",
+            "section": "Ответим и предложим следующий шаг",
+            "hint": ""
+        },
+        "contacts.t29": {
+            "id": "contacts.t29",
+            "label": "Текст",
+            "type": "text",
+            "page": "contacts",
+            "section": "Ответим и предложим следующий шаг",
+            "hint": ""
+        },
+        "contacts.t30": {
+            "id": "contacts.t30",
+            "label": "Текст",
+            "type": "text",
+            "page": "contacts",
+            "section": "Ответим и предложим следующий шаг",
+            "hint": ""
+        },
+        "contacts.t31": {
+            "id": "contacts.t31",
+            "label": "Текст",
+            "type": "text",
+            "page": "contacts",
+            "section": "Ответим и предложим следующий шаг",
+            "hint": ""
+        },
+        "contacts.t32": {
+            "id": "contacts.t32",
+            "label": "Текст",
+            "type": "text",
+            "page": "contacts",
+            "section": "Ответим и предложим следующий шаг",
+            "hint": ""
+        },
+        "contacts.t33": {
+            "id": "contacts.t33",
+            "label": "Текст",
+            "type": "text",
+            "page": "contacts",
+            "section": "Ответим и предложим следующий шаг",
+            "hint": ""
+        },
+        "contacts.t34": {
+            "id": "contacts.t34",
+            "label": "Название поля",
+            "type": "text",
+            "page": "contacts",
+            "section": "Ответим и предложим следующий шаг",
+            "hint": ""
+        },
+        "contacts.t35": {
+            "id": "contacts.t35",
+            "label": "Подсказка в поле",
+            "type": "text",
+            "page": "contacts",
+            "section": "Ответим и предложим следующий шаг",
+            "hint": ""
+        },
+        "contacts.t36": {
+            "id": "contacts.t36",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "contacts",
+            "section": "Ответим и предложим следующий шаг",
+            "hint": ""
+        },
+        "contacts.t37": {
+            "id": "contacts.t37",
+            "label": "Текст",
+            "type": "text",
+            "page": "contacts",
+            "section": "Ответим и предложим следующий шаг",
+            "hint": ""
+        },
+        "contacts.t38": {
+            "id": "contacts.t38",
+            "label": "Текст",
+            "type": "text",
+            "page": "contacts",
+            "section": "Что будет после заявки",
+            "hint": ""
+        },
+        "contacts.t39": {
+            "id": "contacts.t39",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "contacts",
+            "section": "Что будет после заявки",
+            "hint": ""
+        },
+        "contacts.t40": {
+            "id": "contacts.t40",
+            "label": "Текст",
+            "type": "text",
+            "page": "contacts",
+            "section": "Что будет после заявки",
+            "hint": ""
+        },
+        "contacts.t41": {
+            "id": "contacts.t41",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "contacts",
+            "section": "Что будет после заявки",
+            "hint": ""
+        },
+        "contacts.t42": {
+            "id": "contacts.t42",
+            "label": "Текст",
+            "type": "text",
+            "page": "contacts",
+            "section": "Что будет после заявки",
+            "hint": ""
+        },
+        "contacts.t43": {
+            "id": "contacts.t43",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "contacts",
+            "section": "Что будет после заявки",
+            "hint": ""
+        },
+        "contacts.t44": {
+            "id": "contacts.t44",
+            "label": "Текст",
+            "type": "text",
+            "page": "contacts",
+            "section": "Что будет после заявки",
+            "hint": ""
+        },
+        "contacts.t45": {
+            "id": "contacts.t45",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "contacts",
+            "section": "Что будет после заявки",
+            "hint": ""
+        },
+        "contacts.t46": {
+            "id": "contacts.t46",
+            "label": "Текст",
+            "type": "text",
+            "page": "contacts",
+            "section": "Что будет после заявки",
+            "hint": ""
+        },
+        "contacts.t47": {
+            "id": "contacts.t47",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "contacts",
+            "section": "Что будет после заявки",
+            "hint": ""
+        },
+        "contacts.t48": {
+            "id": "contacts.t48",
+            "label": "Текст",
+            "type": "text",
+            "page": "contacts",
+            "section": "Что будет после заявки",
+            "hint": ""
+        },
+        "contacts.t49": {
+            "id": "contacts.t49",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "contacts",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "contacts.t50": {
+            "id": "contacts.t50",
+            "label": "Текст",
+            "type": "text",
+            "page": "contacts",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "contacts.t51": {
+            "id": "contacts.t51",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "contacts",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "contacts.t52": {
+            "id": "contacts.t52",
+            "label": "Текст",
+            "type": "text",
+            "page": "contacts",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "contacts.t53": {
+            "id": "contacts.t53",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "contacts",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "contacts.t54": {
+            "id": "contacts.t54",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "contacts",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "contacts.t55": {
+            "id": "contacts.t55",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "contacts",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "contacts.t56": {
+            "id": "contacts.t56",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "contacts",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "contacts.t57": {
+            "id": "contacts.t57",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "contacts",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "contacts.t58": {
+            "id": "contacts.t58",
+            "label": "Текст",
+            "type": "text",
+            "page": "contacts",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "contacts.t59": {
+            "id": "contacts.t59",
+            "label": "Текст",
+            "type": "text",
+            "page": "contacts",
+            "section": "Подвал страницы",
+            "hint": ""
+        },
+        "contacts.t60": {
+            "id": "contacts.t60",
+            "label": "Подпись для доступности",
+            "type": "text",
+            "page": "contacts",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "contacts.t61": {
+            "id": "contacts.t61",
+            "label": "Текст",
+            "type": "text",
+            "page": "contacts",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "contacts.t62": {
+            "id": "contacts.t62",
+            "label": "Заголовок",
+            "type": "text",
+            "page": "contacts",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "contacts.t63": {
+            "id": "contacts.t63",
+            "label": "Название поля",
+            "type": "text",
+            "page": "contacts",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "contacts.t64": {
+            "id": "contacts.t64",
+            "label": "Название поля",
+            "type": "text",
+            "page": "contacts",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "contacts.t65": {
+            "id": "contacts.t65",
+            "label": "Название поля",
+            "type": "text",
+            "page": "contacts",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "contacts.t66": {
+            "id": "contacts.t66",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "contacts",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "contacts.t67": {
+            "id": "contacts.t67",
+            "label": "Текст",
+            "type": "text",
+            "page": "contacts",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "contacts.t68": {
+            "id": "contacts.t68",
+            "label": "Текст",
+            "type": "text",
+            "page": "contacts",
+            "section": "Форма заявки",
+            "hint": ""
+        },
+        "contacts.t69": {
+            "id": "contacts.t69",
+            "label": "Кнопка или ссылка",
+            "type": "text",
+            "page": "contacts",
+            "section": "Форма заявки",
+            "hint": ""
+        }
+    }
+}

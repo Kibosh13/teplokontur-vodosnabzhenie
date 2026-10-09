@@ -35,3 +35,13 @@ Thumbs.db
 
 # Hosting-specific local metadata
 .openai/
+
+# Private CMS runtime, uploads and local production packaging
+.production/
+server/cms/private/
+site/admin/
+site/.cms/
+site/assets/uploads/
+*.cookies
+__pycache__/
+*.pyc
